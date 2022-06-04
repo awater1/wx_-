@@ -1,29 +1,25 @@
 {
-  "name": "miniprogram-demo",
+  "name": "miniprogram",
   "version": "1.0.0",
-  "description": "WeChat miniprogram demo",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "lint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wechat-miniprogram/miniprogram-demo.git"
-  },
-  "author": "wechat-miniprogram",
-  "license": "MIT",
-  "private": true,
-  "bugs": {
-    "url": "https://github.com/wechat-miniprogram/miniprogram-demo/issues"
-  },
-  "homepage": "https://github.com/wechat-miniprogram/miniprogram-demo#readme",
-  "devDependencies": {
-    "eslint": "^5.5.0",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.0"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "@miniprogram-component-plus/col": "^1.0.0",
+    "@miniprogram-component-plus/emoji": "^1.0.1",
+    "@miniprogram-component-plus/index-list": "^1.0.0",
+    "@miniprogram-component-plus/row": "^1.0.0",
+    "@miniprogram-component-plus/select-text": "^1.0.1",
+    "@miniprogram-component-plus/sticky": "^1.0.0",
+    "@miniprogram-component-plus/tabs": "^1.0.0",
+    "@miniprogram-component-plus/video-swiper": "^1.0.1",
+    "@miniprogram-component-plus/vtabs": "^1.0.0",
+    "@miniprogram-component-plus/vtabs-content": "^1.0.0",
     "miniprogram-barrage": "^1.1.0",
     "miniprogram-recycle-view": "^0.1.5",
     "wxml-to-canvas": "^1.1.1"
